@@ -1,0 +1,1066 @@
+{
+  "_version": "3.0.0",
+  "site": {
+    "identification": {
+      "version": "3.1",
+      "id": "6d90b4b6-8890-4468-a4b9-79d334b7e55e",
+      "title": "Clean-UI5 Samples",
+      "description": "Clean-UI5 Samples"
+    },
+    "payload": {
+      "homeApp": {
+        "semanticObject": "Shell",
+        "action": "home"
+      },
+      "config": {
+        "ushellConfig": {
+          "renderers": {
+            "fiori2": {
+              "componentData": {
+                "config": {
+                  "enableSearch": false
+                }
+              }
+            }
+          }
+        }
+      },
+      "groupsOrder": [
+        "JavaScript_and_SAPUI5",
+        "Modules_and_Classes",
+        "Others"
+      ]
+    }
+  },
+  "catalogs": {
+    "SampleApps": {
+      "identification": {
+        "id": "SampleApps",
+        "title": "Clean-UI5 Samples"
+      },
+      "payload": {
+        "viz": [
+          "xfrag",
+          "capi",
+          "msgbox",
+          "vstate",
+          "rjsmdl",
+          "utctrl",
+          "utview",
+          "siprev",
+          "fgctl",
+          "ctlcmp",
+          "dlghlp",
+          "gstate",
+          "utmsbx",
+          "intrfc",
+          "singlt"
+        ]
+      }
+    }
+  },
+  "vizTypes": {},
+  "visualizations": {
+    "xfrag": {
+      "vizType": "sap.ushell.StaticAppLauncher",
+      "businessApp": "com.altarkawi.xfrag",
+      "vizConfig": {
+        "sap.flp": {
+          "target": {
+            "appId": "com.altarkawi.xfrag",
+            "inboundId": "sample-xfrag",
+            "parameters": {}
+          }
+        }
+      }
+    },
+    "capi": {
+      "vizType": "sap.ushell.StaticAppLauncher",
+      "businessApp": "com.altarkawi.capi",
+      "vizConfig": {
+        "sap.flp": {
+          "target": {
+            "appId": "com.altarkawi.capi",
+            "inboundId": "sample-capi",
+            "parameters": {}
+          }
+        }
+      }
+    },
+    "msgbox": {
+      "vizType": "sap.ushell.StaticAppLauncher",
+      "businessApp": "com.altarkawi.msgbox",
+      "vizConfig": {
+        "sap.flp": {
+          "target": {
+            "appId": "com.altarkawi.msgbox",
+            "inboundId": "sample-msgbox",
+            "parameters": {}
+          }
+        }
+      }
+    },
+    "rjsmdl": {
+      "vizType": "sap.ushell.StaticAppLauncher",
+      "businessApp": "com.altarkawi.rjsmdl",
+      "vizConfig": {
+        "sap.flp": {
+          "target": {
+            "appId": "com.altarkawi.rjsmdl",
+            "inboundId": "sample-rjsmdl",
+            "parameters": {}
+          }
+        }
+      }
+    },
+    "vstate": {
+      "vizType": "sap.ushell.StaticAppLauncher",
+      "businessApp": "com.altarkawi.vstate",
+      "vizConfig": {
+        "sap.flp": {
+          "target": {
+            "appId": "com.altarkawi.vstate",
+            "inboundId": "sample-vstate",
+            "parameters": {}
+          }
+        }
+      }
+    },
+    "utctrl": {
+      "vizType": "sap.ushell.StaticAppLauncher",
+      "businessApp": "com.altarkawi.utctrl",
+      "vizConfig": {
+        "sap.flp": {
+          "target": {
+            "appId": "com.altarkawi.utctrl",
+            "inboundId": "sample-utctrl",
+            "parameters": {}
+          }
+        }
+      }
+    },
+    "utview": {
+      "vizType": "sap.ushell.StaticAppLauncher",
+      "businessApp": "com.altarkawi.utview",
+      "vizConfig": {
+        "sap.flp": {
+          "target": {
+            "appId": "com.altarkawi.utview",
+            "inboundId": "sample-utview",
+            "parameters": {}
+          }
+        }
+      }
+    },
+    "siprev": {
+      "vizType": "sap.ushell.StaticAppLauncher",
+      "businessApp": "com.altarkawi.siprev",
+      "vizConfig": {
+        "sap.flp": {
+          "target": {
+            "appId": "com.altarkawi.siprev",
+            "inboundId": "sample-siprev",
+            "parameters": {}
+          }
+        }
+      }
+    },
+    "fgctl": {
+      "vizType": "sap.ushell.StaticAppLauncher",
+      "businessApp": "com.altarkawi.fgctl",
+      "vizConfig": {
+        "sap.flp": {
+          "target": {
+            "appId": "com.altarkawi.fgctl",
+            "inboundId": "sample-fgctl",
+            "parameters": {}
+          }
+        }
+      }
+    },
+    "ctlcmp": {
+      "vizType": "sap.ushell.StaticAppLauncher",
+      "businessApp": "com.altarkawi.ctlcmp",
+      "vizConfig": {
+        "sap.flp": {
+          "target": {
+            "appId": "com.altarkawi.ctlcmp",
+            "inboundId": "sample-ctlcmp",
+            "parameters": {}
+          }
+        }
+      }
+    },
+    "dlghlp": {
+      "vizType": "sap.ushell.StaticAppLauncher",
+      "businessApp": "com.altarkawi.dlghlp",
+      "vizConfig": {
+        "sap.flp": {
+          "target": {
+            "appId": "com.altarkawi.dlghlp",
+            "inboundId": "sample-dlghlp",
+            "parameters": {}
+          }
+        }
+      }
+    },
+    "gstate": {
+      "vizType": "sap.ushell.DynamicAppLauncher",
+      "businessApp": "com.altarkawi.gstate",
+      "vizConfig": {
+        "sap.flp": {
+          "target": {
+            "appId": "com.altarkawi.gstate",
+            "inboundId": "sample-gstate",
+            "parameters": {}
+          },
+          "indicatorDataSource": {
+            "path": "/mock/gstate",
+            "refresh": 0
+          }
+        }
+      }
+    },
+    "utmsbx": {
+      "vizType": "sap.ushell.StaticAppLauncher",
+      "businessApp": "com.altarkawi.utmsbx",
+      "vizConfig": {
+        "sap.flp": {
+          "target": {
+            "appId": "com.altarkawi.utmsbx",
+            "inboundId": "sample-utmsbx",
+            "parameters": {}
+          }
+        }
+      }
+    },
+    "intrfc": {
+      "vizType": "sap.ushell.StaticAppLauncher",
+      "businessApp": "com.altarkawi.intrfc",
+      "vizConfig": {
+        "sap.flp": {
+          "target": {
+            "appId": "com.altarkawi.intrfc",
+            "inboundId": "sample-intrfc",
+            "parameters": {}
+          }
+        }
+      }
+    },
+    "singlt": {
+      "vizType": "sap.ushell.StaticAppLauncher",
+      "businessApp": "com.altarkawi.singlt",
+      "vizConfig": {
+        "sap.flp": {
+          "target": {
+            "appId": "com.altarkawi.singlt",
+            "inboundId": "sample-singlt",
+            "parameters": {}
+          }
+        }
+      }
+    }
+  },
+  "applications": {
+    "com.altarkawi.xfrag": {
+      "sap.app": {
+        "id": "com.altarkawi.xfrag",
+        "applicationVersion": {
+          "version": "1.0.0"
+        },
+        "title": "xfrag",
+        "subTitle": "Literal XML fragments",
+        "crossNavigation": {
+          "inbounds": {
+            "sample-xfrag": {
+              "semanticObject": "sample",
+              "action": "xfrag",
+              "signature": {
+                "parameters": {},
+                "additionalParameters": "allowed"
+              }
+            }
+          }
+        }
+      },
+      "sap.ui5": {
+        "models": {},
+        "componentName": "com.altarkawi.xfrag"
+      },
+      "sap.flp": {
+        "businessApp": "com.altarkawi.xfrag",
+        "defaultLauncher": "sample-xfrag"
+      },
+      "sap.ui": {
+        "technology": "UI5",
+        "icons": {
+          "icon": "sap-icon://developer-settings"
+        },
+        "deviceTypes": {
+          "desktop": true,
+          "tablet": true,
+          "phone": true
+        }
+      },
+      "sap.platform.runtime": {
+        "componentProperties": {
+          "url": "applications/xfrag"
+        }
+      }
+    },
+    "com.altarkawi.capi": {
+      "sap.app": {
+        "id": "com.altarkawi.capi",
+        "applicationVersion": {
+          "version": "1.0.0"
+        },
+        "title": "CAPI",
+        "subTitle": "Released Cloud APIs for ABAP Cloud ",
+        "crossNavigation": {
+          "inbounds": {
+            "sample-capi": {
+              "semanticObject": "sample",
+              "action": "capi",
+              "signature": {
+                "parameters": {},
+                "additionalParameters": "allowed"
+              }
+            }
+          }
+        }
+      },
+      "sap.ui5": {
+        "models": {},
+        "componentName": "com.altarkawi.capi"
+      },
+      "sap.flp": {
+        "businessApp": "com.altarkawi.capi",
+        "defaultLauncher": "sample-capi"
+      },
+      "sap.ui": {
+        "technology": "UI5",
+        "icons": {
+          "icon": "sap-icon://cloud"
+        },
+        "deviceTypes": {
+          "desktop": true,
+          "tablet": true,
+          "phone": true
+        }
+      },
+      "sap.platform.runtime": {
+        "componentProperties": {
+          "url": "applications/capi"
+        }
+      }
+    },
+    "com.altarkawi.msgbox": {
+      "sap.app": {
+        "id": "com.altarkawi.msgbox",
+        "applicationVersion": {
+          "version": "1.0.0"
+        },
+        "title": "msgbox",
+        "subTitle": "messageBox helper",
+        "crossNavigation": {
+          "inbounds": {
+            "sample-msgbox": {
+              "semanticObject": "sample",
+              "action": "msgbox",
+              "signature": {
+                "parameters": {},
+                "additionalParameters": "allowed"
+              }
+            }
+          }
+        }
+      },
+      "sap.ui5": {
+        "models": {},
+        "componentName": "com.altarkawi.msgbox"
+      },
+      "sap.flp": {
+        "businessApp": "com.altarkawi.msgbox",
+        "defaultLauncher": "sample-msgbox"
+      },
+      "sap.ui": {
+        "technology": "UI5",
+        "icons": {
+          "icon": "sap-icon://popup-window"
+        },
+        "deviceTypes": {
+          "desktop": true,
+          "tablet": true,
+          "phone": true
+        }
+      },
+      "sap.platform.runtime": {
+        "componentProperties": {
+          "url": "applications/msgbox"
+        }
+      }
+    },
+    "com.altarkawi.vstate": {
+      "sap.app": {
+        "id": "com.altarkawi.vstate",
+        "applicationVersion": {
+          "version": "1.0.0"
+        },
+        "title": "vstate",
+        "subTitle": "Value State example",
+        "crossNavigation": {
+          "inbounds": {
+            "sample-vstate": {
+              "semanticObject": "sample",
+              "action": "vstate",
+              "signature": {
+                "parameters": {},
+                "additionalParameters": "allowed"
+              }
+            }
+          }
+        }
+      },
+      "sap.ui5": {
+        "models": {},
+        "componentName": "com.altarkawi.vstate"
+      },
+      "sap.flp": {
+        "businessApp": "com.altarkawi.vstate",
+        "defaultLauncher": "sample-vstate"
+      },
+      "sap.ui": {
+        "technology": "UI5",
+        "icons": {
+          "icon": "sap-icon://validate"
+        },
+        "deviceTypes": {
+          "desktop": true,
+          "tablet": true,
+          "phone": true
+        }
+      },
+      "sap.platform.runtime": {
+        "componentProperties": {
+          "url": "applications/vstate"
+        }
+      }
+    },
+    "com.altarkawi.rjsmdl": {
+      "sap.app": {
+        "id": "com.altarkawi.rjsmdl",
+        "applicationVersion": {
+          "version": "1.0.0"
+        },
+        "title": "rjsmdl",
+        "subTitle": "Reactive JSON model",
+        "crossNavigation": {
+          "inbounds": {
+            "sample-rjsmdl": {
+              "semanticObject": "sample",
+              "action": "rjsmdl",
+              "signature": {
+                "parameters": {},
+                "additionalParameters": "allowed"
+              }
+            }
+          }
+        }
+      },
+      "sap.ui5": {
+        "models": {},
+        "componentName": "com.altarkawi.rjsmdl"
+      },
+      "sap.flp": {
+        "businessApp": "com.altarkawi.rjsmdl",
+        "defaultLauncher": "sample-rjsmdl"
+      },
+      "sap.ui": {
+        "technology": "UI5",
+        "icons": {
+          "icon": "sap-icon://activate"
+        },
+        "deviceTypes": {
+          "desktop": true,
+          "tablet": true,
+          "phone": true
+        }
+      },
+      "sap.platform.runtime": {
+        "componentProperties": {
+          "url": "applications/rjsmdl"
+        }
+      }
+    },
+    "com.altarkawi.utctrl": {
+      "sap.app": {
+        "id": "com.altarkawi.utctrl",
+        "applicationVersion": {
+          "version": "1.0.0"
+        },
+        "title": "utctrl",
+        "subTitle": "Controller unit test",
+        "crossNavigation": {
+          "inbounds": {
+            "sample-utctrl": {
+              "semanticObject": "sample",
+              "action": "utctrl",
+              "signature": {
+                "parameters": {},
+                "additionalParameters": "allowed"
+              }
+            }
+          }
+        }
+      },
+      "sap.ui5": {
+        "models": {},
+        "componentName": "com.altarkawi.utctrl"
+      },
+      "sap.flp": {
+        "businessApp": "com.altarkawi.utctrl",
+        "defaultLauncher": "sample-utctrl"
+      },
+      "sap.ui": {
+        "technology": "UI5",
+        "icons": {
+          "icon": "sap-icon://approvals"
+        },
+        "deviceTypes": {
+          "desktop": true,
+          "tablet": true,
+          "phone": true
+        }
+      },
+      "sap.platform.runtime": {
+        "componentProperties": {
+          "url": "applications/utctrl"
+        }
+      }
+    },
+    "com.altarkawi.utview": {
+      "sap.app": {
+        "id": "com.altarkawi.utview",
+        "applicationVersion": {
+          "version": "1.0.0"
+        },
+        "title": "utview",
+        "subTitle": "View unit test",
+        "crossNavigation": {
+          "inbounds": {
+            "sample-utview": {
+              "semanticObject": "sample",
+              "action": "utview",
+              "signature": {
+                "parameters": {},
+                "additionalParameters": "allowed"
+              }
+            }
+          }
+        }
+      },
+      "sap.ui5": {
+        "models": {},
+        "componentName": "com.altarkawi.utview"
+      },
+      "sap.flp": {
+        "businessApp": "com.altarkawi.utview",
+        "defaultLauncher": "sample-utview"
+      },
+      "sap.ui": {
+        "technology": "UI5",
+        "icons": {
+          "icon": "sap-icon://approvals"
+        },
+        "deviceTypes": {
+          "desktop": true,
+          "tablet": true,
+          "phone": true
+        }
+      },
+      "sap.platform.runtime": {
+        "componentProperties": {
+          "url": "applications/utview"
+        }
+      }
+    },
+    "com.altarkawi.siprev": {
+      "sap.app": {
+        "id": "com.altarkawi.siprev",
+        "applicationVersion": {
+          "version": "1.0.0"
+        },
+        "title": "siprev",
+        "subTitle": "Special Instructions preview",
+        "crossNavigation": {
+          "inbounds": {
+            "sample-siprev": {
+              "semanticObject": "sample",
+              "action": "siprev",
+              "signature": {
+                "parameters": {},
+                "additionalParameters": "allowed"
+              }
+            }
+          }
+        }
+      },
+      "sap.ui5": {
+        "models": {},
+        "componentName": "com.altarkawi.siprev"
+      },
+      "sap.flp": {
+        "businessApp": "com.altarkawi.siprev",
+        "defaultLauncher": "sample-siprev"
+      },
+      "sap.ui": {
+        "technology": "UI5",
+        "icons": {
+          "icon": "sap-icon://my-sales-order"
+        },
+        "deviceTypes": {
+          "desktop": true,
+          "tablet": true,
+          "phone": true
+        }
+      },
+      "sap.platform.runtime": {
+        "componentProperties": {
+          "url": "applications/siprev"
+        }
+      }
+    },
+    "com.altarkawi.fgctl": {
+      "sap.app": {
+        "id": "com.altarkawi.fgctl",
+        "applicationVersion": {
+          "version": "1.0.0"
+        },
+        "title": "fgctl",
+        "subTitle": "Fragment as a control",
+        "crossNavigation": {
+          "inbounds": {
+            "sample-fgctl": {
+              "semanticObject": "sample",
+              "action": "fgctl",
+              "signature": {
+                "parameters": {},
+                "additionalParameters": "allowed"
+              }
+            }
+          }
+        }
+      },
+      "sap.ui5": {
+        "models": {},
+        "componentName": "com.altarkawi.fgctl"
+      },
+      "sap.flp": {
+        "businessApp": "com.altarkawi.fgctl",
+        "defaultLauncher": "sample-fgctl"
+      },
+      "sap.ui": {
+        "technology": "UI5",
+        "icons": {
+          "icon": "sap-icon://wrench"
+        },
+        "deviceTypes": {
+          "desktop": true,
+          "tablet": true,
+          "phone": true
+        }
+      },
+      "sap.platform.runtime": {
+        "componentProperties": {
+          "url": "applications/fgctl"
+        }
+      }
+    },
+    "com.altarkawi.ctlcmp": {
+      "sap.app": {
+        "id": "com.altarkawi.ctlcmp",
+        "applicationVersion": {
+          "version": "1.0.0"
+        },
+        "title": "ctlcmp",
+        "subTitle": "Composing controller",
+        "crossNavigation": {
+          "inbounds": {
+            "sample-ctlcmp": {
+              "semanticObject": "sample",
+              "action": "ctlcmp",
+              "signature": {
+                "parameters": {},
+                "additionalParameters": "allowed"
+              }
+            }
+          }
+        }
+      },
+      "sap.ui5": {
+        "models": {},
+        "componentName": "com.altarkawi.ctlcmp"
+      },
+      "sap.flp": {
+        "businessApp": "com.altarkawi.ctlcmp",
+        "defaultLauncher": "sample-ctlcmp"
+      },
+      "sap.ui": {
+        "technology": "UI5",
+        "icons": {
+          "icon": "sap-icon://combine"
+        },
+        "deviceTypes": {
+          "desktop": true,
+          "tablet": true,
+          "phone": true
+        }
+      },
+      "sap.platform.runtime": {
+        "componentProperties": {
+          "url": "applications/ctlcmp"
+        }
+      }
+    },
+    "com.altarkawi.dlghlp": {
+      "sap.app": {
+        "id": "com.altarkawi.dlghlp",
+        "applicationVersion": {
+          "version": "1.0.0"
+        },
+        "title": "dlghlp",
+        "subTitle": "Dialog helper",
+        "crossNavigation": {
+          "inbounds": {
+            "sample-dlghlp": {
+              "semanticObject": "sample",
+              "action": "dlghlp",
+              "signature": {
+                "parameters": {},
+                "additionalParameters": "allowed"
+              }
+            }
+          }
+        }
+      },
+      "sap.ui5": {
+        "models": {},
+        "componentName": "com.altarkawi.dlghlp"
+      },
+      "sap.flp": {
+        "businessApp": "com.altarkawi.dlghlp",
+        "defaultLauncher": "sample-dlghlp"
+      },
+      "sap.ui": {
+        "technology": "UI5",
+        "icons": {
+          "icon": "sap-icon://popup-window"
+        },
+        "deviceTypes": {
+          "desktop": true,
+          "tablet": true,
+          "phone": true
+        }
+      },
+      "sap.platform.runtime": {
+        "componentProperties": {
+          "url": "applications/dlghlp"
+        }
+      }
+    },
+    "com.altarkawi.gstate": {
+      "sap.app": {
+        "id": "com.altarkawi.gstate",
+        "applicationVersion": {
+          "version": "1.0.0"
+        },
+        "title": "gstate",
+        "subTitle": "Illustrates globals",
+        "crossNavigation": {
+          "inbounds": {
+            "sample-gstate": {
+              "semanticObject": "sample",
+              "action": "gstate",
+              "signature": {
+                "parameters": {},
+                "additionalParameters": "allowed"
+              }
+            }
+          }
+        }
+      },
+      "sap.ui5": {
+        "models": {},
+        "componentName": "com.altarkawi.gstate"
+      },
+      "sap.flp": {
+        "businessApp": "com.altarkawi.gstate",
+        "defaultLauncher": "sample-gstate"
+      },
+      "sap.ui": {
+        "technology": "UI5",
+        "icons": {
+          "icon": "sap-icon://connected"
+        },
+        "deviceTypes": {
+          "desktop": true,
+          "tablet": true,
+          "phone": true
+        }
+      },
+      "sap.platform.runtime": {
+        "componentProperties": {
+          "url": "applications/gstate"
+        }
+      }
+    },
+    "com.altarkawi.utmsbx": {
+      "sap.app": {
+        "id": "com.altarkawi.utmsbx",
+        "applicationVersion": {
+          "version": "1.0.0"
+        },
+        "title": "utmsbx",
+        "subTitle": "messageBox unit test",
+        "crossNavigation": {
+          "inbounds": {
+            "sample-utmsbx": {
+              "semanticObject": "sample",
+              "action": "utmsbx",
+              "signature": {
+                "parameters": {},
+                "additionalParameters": "allowed"
+              }
+            }
+          }
+        }
+      },
+      "sap.ui5": {
+        "models": {},
+        "componentName": "com.altarkawi.utmsbx"
+      },
+      "sap.flp": {
+        "businessApp": "com.altarkawi.utmsbx",
+        "defaultLauncher": "sample-utmsbx"
+      },
+      "sap.ui": {
+        "technology": "UI5",
+        "icons": {
+          "icon": "sap-icon://approvals"
+        },
+        "deviceTypes": {
+          "desktop": true,
+          "tablet": true,
+          "phone": true
+        }
+      },
+      "sap.platform.runtime": {
+        "componentProperties": {
+          "url": "applications/utmsbx"
+        }
+      }
+    },
+    "com.altarkawi.intrfc": {
+      "sap.app": {
+        "id": "com.altarkawi.intrfc",
+        "applicationVersion": {
+          "version": "1.0.0"
+        },
+        "title": "intrfc",
+        "subTitle": "Interface testing",
+        "crossNavigation": {
+          "inbounds": {
+            "sample-intrfc": {
+              "semanticObject": "sample",
+              "action": "intrfc",
+              "signature": {
+                "parameters": {},
+                "additionalParameters": "allowed"
+              }
+            }
+          }
+        }
+      },
+      "sap.ui5": {
+        "models": {},
+        "componentName": "com.altarkawi.intrfc"
+      },
+      "sap.flp": {
+        "businessApp": "com.altarkawi.intrfc",
+        "defaultLauncher": "sample-intrfc"
+      },
+      "sap.ui": {
+        "technology": "UI5",
+        "icons": {
+          "icon": "sap-icon://technical-object"
+        },
+        "deviceTypes": {
+          "desktop": true,
+          "tablet": true,
+          "phone": true
+        }
+      },
+      "sap.platform.runtime": {
+        "componentProperties": {
+          "url": "applications/intrfc"
+        }
+      }
+    },
+    "com.altarkawi.singlt": {
+      "sap.app": {
+        "id": "com.altarkawi.singlt",
+        "applicationVersion": {
+          "version": "1.0.0"
+        },
+        "title": "singlt",
+        "subTitle": "Singleton example",
+        "crossNavigation": {
+          "inbounds": {
+            "sample-singlt": {
+              "semanticObject": "sample",
+              "action": "singlt",
+              "signature": {
+                "parameters": {},
+                "additionalParameters": "allowed"
+              }
+            }
+          }
+        }
+      },
+      "sap.ui5": {
+        "models": {},
+        "componentName": "com.altarkawi.singlt"
+      },
+      "sap.flp": {
+        "businessApp": "com.altarkawi.singlt",
+        "defaultLauncher": "sample-singlt"
+      },
+      "sap.ui": {
+        "technology": "UI5",
+        "icons": {
+          "icon": "sap-icon://favorite"
+        },
+        "deviceTypes": {
+          "desktop": true,
+          "tablet": true,
+          "phone": true
+        }
+      },
+      "sap.platform.runtime": {
+        "componentProperties": {
+          "url": "applications/singlt"
+        }
+      }
+    }
+  },
+  "groups": {
+    "JavaScript_and_SAPUI5": {
+      "identification": {
+        "id": "JavaScript_and_SAPUI5",
+        "title": "JavaScript and SAPUI5"
+      },
+      "payload": {
+        "tiles": [
+          {
+            "id": "00000",
+            "vizId": "xfrag"
+          },
+          {
+            "id": "00001",
+            "vizId": "msgbox"
+          },
+          {
+            "id": "00002",
+            "vizId": "vstate"
+          },
+          {
+            "id": "00003",
+            "vizId": "rjsmdl"
+          },
+          {
+            "id": "00004",
+            "vizId": "capi"
+          }
+        ],
+        "links": [],
+        "groups": []
+      }
+    },
+    "Modules_and_Classes": {
+      "identification": {
+        "id": "Modules_and_Classes",
+        "title": "Modules and Classes"
+      },
+      "payload": {
+        "tiles": [
+          {
+            "id": "00004",
+            "vizId": "utctrl"
+          },
+          {
+            "id": "00005",
+            "vizId": "utview"
+          },
+          {
+            "id": "00006",
+            "vizId": "siprev"
+          },
+          {
+            "id": "00007",
+            "vizId": "fgctl"
+          },
+          {
+            "id": "00008",
+            "vizId": "ctlcmp"
+          },
+          {
+            "id": "00009",
+            "vizId": "dlghlp"
+          },
+          {
+            "id": "00011",
+            "vizId": "gstate"
+          },
+          {
+            "id": "00012",
+            "vizId": "utmsbx"
+          },
+          {
+            "id": "00013",
+            "vizId": "singlt"
+          },
+          {
+            "id": "00014",
+            "vizId": "intrfc"
+          }
+        ],
+        "links": [],
+        "groups": []
+      }
+    },
+    "Others": {
+      "identification": {
+        "id": "Others",
+        "title": "Others"
+      },
+      "payload": {
+        "tiles": [
+          {
+            "id": "00010",
+            "icon": "github.png",
+            "title": "Fork me on GitHub",
+            "subTitle": "Access source codes",
+            "isBookmark": true,
+            "target": {
+              "type": "URL",
+              "url": "https://github.com/MohammedAltarkawi/js-ui5-launchpad"
+            }
+          }
+        ],
+        "links": [],
+        "groups": []
+      }
+    }
+  },
+  "systemAliases": {}
+}
